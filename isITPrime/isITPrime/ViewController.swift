@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     
     @IBAction func buttonCheck(_ sender: Any) {
        
-        if let userEnteredString = textField.text
-        {
-            let UserEnteredInteger = Int(userEnteredString)
+        if let userEnteredString = textField.text{
+            
+        let UserEnteredInteger = Int(userEnteredString)
             
             if let number = UserEnteredInteger {
                 

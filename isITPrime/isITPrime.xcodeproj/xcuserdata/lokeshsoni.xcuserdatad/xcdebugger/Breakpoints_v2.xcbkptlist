@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "isITPrime/ViewController.swift"
+            timestampString = "520676491.259179"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isITPrime.ViewController.__deallocating_deinit"
+                  moduleName = "isITPrime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshsoni/Desktop/IOSDevelopment/isITPrime/isITPrime/ViewController.swift"
+                  timestampString = "520676628.384704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isITPrime.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; isITPrime.ViewController"
+                  moduleName = "isITPrime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshsoni/Desktop/IOSDevelopment/isITPrime/isITPrime/ViewController.swift"
+                  timestampString = "520676628.38643"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isITPrime.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; isITPrime.ViewController"
+                  moduleName = "isITPrime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshsoni/Desktop/IOSDevelopment/isITPrime/isITPrime/ViewController.swift"
+                  timestampString = "520676628.388081"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isITPrime.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;isITPrime.ViewController&gt;"
+                  moduleName = "isITPrime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshsoni/Desktop/IOSDevelopment/isITPrime/isITPrime/ViewController.swift"
+                  timestampString = "520676628.389721"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "isITPrime.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;isITPrime.ViewController&gt;"
+                  moduleName = "isITPrime"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lokeshsoni/Desktop/IOSDevelopment/isITPrime/isITPrime/ViewController.swift"
+                  timestampString = "520676628.391417"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
