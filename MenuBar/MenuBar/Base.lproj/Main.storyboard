@@ -25,9 +25,17 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Navigation Bar" id="V9Y-3t-Pbi">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="search" id="4jx-C5-wF8"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Done" id="eJE-1W-C8b"/>
+                                    <navigationItem title="Egg Timer" id="V9Y-3t-Pbi">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="4jx-C5-wF8">
+                                            <connections>
+                                                <action selector="buttonStop:" destination="BYZ-38-t0r" id="i8u-ZB-lTR"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="eJE-1W-C8b">
+                                            <connections>
+                                                <action selector="buttonStart:" destination="BYZ-38-t0r" id="pOA-0V-DYy"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -35,17 +43,47 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem systemItem="edit" id="lwv-ho-yte"/>
+                                    <barButtonItem title="-10" id="lwv-ho-yte">
+                                        <connections>
+                                            <action selector="buttonSubTen:" destination="BYZ-38-t0r" id="0fG-Go-ALS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yo4-qp-fuU"/>
+                                    <barButtonItem title="Reset" id="iP2-gV-Jbr">
+                                        <connections>
+                                            <action selector="buttonReset:" destination="BYZ-38-t0r" id="opp-8Q-jGi"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="m6z-3k-GBW"/>
-                                    <barButtonItem systemItem="undo" id="LHz-VO-Efa"/>
+                                    <barButtonItem title="+10" id="LHz-VO-Efa">
+                                        <connections>
+                                            <action selector="buttonAddTen:" destination="BYZ-38-t0r" id="kDN-KX-E29"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVA-bF-kMW">
+                                <rect key="frame" x="177" y="313" width="21.5" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mVA-bF-kMW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LJQ-Rd-Alr"/>
+                            <constraint firstItem="mVA-bF-kMW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vLk-FQ-64W"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Time" destination="mVA-bF-kMW" id="SgR-qw-dag"/>
+                        <outlet property="buttonAddTen" destination="LHz-VO-Efa" id="KNC-BN-0Qr"/>
+                        <outlet property="labelTime" destination="mVA-bF-kMW" id="5jH-zO-TRx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
