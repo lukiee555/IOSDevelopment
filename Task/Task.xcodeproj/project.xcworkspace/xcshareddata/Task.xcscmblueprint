@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1CD7732C94E84086BB23C5DA8BA80809D385DFE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F4D78164EEF4CAE8589B6DD9621123113F5AEAC" : 9223372036854775807,
+    "F1CD7732C94E84086BB23C5DA8BA80809D385DFE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC96BA0F-E61D-4B1C-8174-7BBCF6571F99",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F4D78164EEF4CAE8589B6DD9621123113F5AEAC" : "",
+    "F1CD7732C94E84086BB23C5DA8BA80809D385DFE" : "Task\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Task",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Task.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lukiee555\/IOSDevelopment.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F4D78164EEF4CAE8589B6DD9621123113F5AEAC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lukiee555\/Absolute-Darhk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1CD7732C94E84086BB23C5DA8BA80809D385DFE"
+    }
+  ]
+}

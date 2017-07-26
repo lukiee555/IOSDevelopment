@@ -137,11 +137,31 @@
                         <outlet property="UIimageProfile" destination="AHH-S6-b2s" id="YPt-Kg-PsE"/>
                         <outlet property="UIimageSettings" destination="MSq-pA-8oT" id="Qhj-VK-b1b"/>
                         <outlet property="UIimageWhoweAre" destination="c0C-gD-8jm" id="oru-kw-rMa"/>
+                        <segue destination="3OT-Kp-39N" kind="presentation" id="rDs-Py-3jD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-151" y="88"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xtf-vy-E8U">
+            <objects>
+                <viewController id="3OT-Kp-39N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gpU-1q-kVl"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Ea-Qa-8XZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mpn-dj-P5z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Af1-eG-mE5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wlz-Op-5Ww" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="684" y="88"/>
         </scene>
     </scenes>
     <resources>
