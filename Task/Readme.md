@@ -1,1 +1,1 @@
-Branch: Master
+Git initialized.
