@@ -16,6 +16,7 @@
 		370304E01F26188A006C8E7B /* TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370304DF1F26188A006C8E7B /* TaskUITests.swift */; };
 		370304EE1F2632C4006C8E7B /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370304ED1F2632C4006C8E7B /* Swift+Gif.swift */; };
 		370305041F263D2F006C8E7B /* sidemenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 370305031F263D2F006C8E7B /* sidemenu.png */; };
+		376BF19F1F30D095008E5720 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 376BF19E1F30D095008E5720 /* splashscreen.png */; };
 		37B6FC361F2B5C0600EBAA17 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37B6FC2D1F2B5C0600EBAA17 /* 2.gif */; };
 		37B6FC371F2B5C0600EBAA17 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37B6FC2E1F2B5C0600EBAA17 /* 3.gif */; };
 		37B6FC381F2B5C0600EBAA17 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37B6FC2F1F2B5C0600EBAA17 /* 4.gif */; };
@@ -60,6 +61,7 @@
 		370304E11F26188A006C8E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370304ED1F2632C4006C8E7B /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		370305031F263D2F006C8E7B /* sidemenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidemenu.png; sourceTree = "<group>"; };
+		376BF19E1F30D095008E5720 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
 		37B6FC2D1F2B5C0600EBAA17 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		37B6FC2E1F2B5C0600EBAA17 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
 		37B6FC2F1F2B5C0600EBAA17 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				37B6FC321F2B5C0600EBAA17 /* 7.gif */,
 				37B6FC331F2B5C0600EBAA17 /* 8.gif */,
 				37B6FC341F2B5C0600EBAA17 /* 9.gif */,
+				376BF19E1F30D095008E5720 /* splashscreen.png */,
 				370304C61F26188A006C8E7B /* Assets.xcassets */,
 				370304C81F26188A006C8E7B /* LaunchScreen.storyboard */,
 				370304CB1F26188A006C8E7B /* Info.plist */,
@@ -266,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376BF19F1F30D095008E5720 /* splashscreen.png in Resources */,
 				37B6FC3B1F2B5C0600EBAA17 /* 7.gif in Resources */,
 				370304CA1F26188A006C8E7B /* LaunchScreen.storyboard in Resources */,
 				370304C71F26188A006C8E7B /* Assets.xcassets in Resources */,
@@ -457,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9456N4A52E;
 				INFOPLIST_FILE = Task/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -470,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9456N4A52E;
 				INFOPLIST_FILE = Task/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
