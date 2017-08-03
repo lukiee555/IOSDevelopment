@@ -142,6 +142,33 @@
             <point key="canvasLocation" x="-568" y="75"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="mhe-3D-ItI">
+            <objects>
+                <viewController id="Ac7-Qo-EbU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2E5-FT-mVN"/>
+                        <viewControllerLayoutGuide type="bottom" id="pGp-aa-2Kw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNL-iZ-2xN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UPCOMING EVENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQv-RW-0pQ">
+                                <rect key="frame" x="119" y="58" width="176.33333333333331" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nnn-55-fET" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231.8840579710145" y="78.260869565217391"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="SGS-k0-uIt">
             <objects>
                 <viewController id="QSn-Oo-hb2" sceneMemberID="viewController">
@@ -193,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7F-Zu-MTV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.23188405797103" y="74.184782608695656"/>
+            <point key="canvasLocation" x="-664" y="-1623"/>
         </scene>
     </scenes>
 </document>

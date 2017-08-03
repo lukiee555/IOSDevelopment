@@ -15,6 +15,7 @@
 		370304D51F26188A006C8E7B /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370304D41F26188A006C8E7B /* TaskTests.swift */; };
 		370304E01F26188A006C8E7B /* TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370304DF1F26188A006C8E7B /* TaskUITests.swift */; };
 		370304EE1F2632C4006C8E7B /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370304ED1F2632C4006C8E7B /* Swift+Gif.swift */; };
+		37172D231F334ED000E1D366 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37172D221F334ED000E1D366 /* QuartzCore.framework */; };
 		376BF19F1F30D095008E5720 /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 376BF19E1F30D095008E5720 /* splashscreen.png */; };
 		37B6FC361F2B5C0600EBAA17 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37B6FC2D1F2B5C0600EBAA17 /* 2.gif */; };
 		37B6FC371F2B5C0600EBAA17 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37B6FC2E1F2B5C0600EBAA17 /* 3.gif */; };
@@ -59,6 +60,7 @@
 		370304DF1F26188A006C8E7B /* TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskUITests.swift; sourceTree = "<group>"; };
 		370304E11F26188A006C8E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370304ED1F2632C4006C8E7B /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		37172D221F334ED000E1D366 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		376BF19E1F30D095008E5720 /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashscreen.png; sourceTree = "<group>"; };
 		37B6FC2D1F2B5C0600EBAA17 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
 		37B6FC2E1F2B5C0600EBAA17 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37172D231F334ED000E1D366 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 				370304D31F26188A006C8E7B /* TaskTests */,
 				370304DE1F26188A006C8E7B /* TaskUITests */,
 				370304BD1F26188A006C8E7B /* Products */,
+				37172D211F334ED000E1D366 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +152,14 @@
 				370304E11F26188A006C8E7B /* Info.plist */,
 			);
 			path = TaskUITests;
+			sourceTree = "<group>";
+		};
+		37172D211F334ED000E1D366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37172D221F334ED000E1D366 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3718ECF11F31FF3900F0BE0F /* gifs */ = {
