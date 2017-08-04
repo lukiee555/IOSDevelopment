@@ -38,7 +38,7 @@
                                                 <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="TXC-fN-Y9u">
+                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Events Cell" id="TXC-fN-Y9u" customClass="EventsCollectionViewCell" customModule="AbsoluteDarhk" customModuleProvider="target">
                                                     <rect key="frame" x="20" y="5" width="280" height="380"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -68,14 +68,6 @@
                                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
-                                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9x2-DS-dsO">
-                                                                                    <rect key="frame" x="8" y="151" width="46" height="30"/>
-                                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                                                    <state key="normal" title="Info">
-                                                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                                    </state>
-                                                                                </button>
                                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For guestlist &amp; booking call 9587-666-008 or send email absolutedarhk@gmail.com." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnz-cK-qoa">
                                                                                     <rect key="frame" x="17" y="50" width="255" height="83"/>
                                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -83,6 +75,14 @@
                                                                                     <color key="textColor" red="0.52175206218274117" green="0.52175206218274117" blue="0.52175206218274117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
+                                                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9x2-DS-dsO">
+                                                                                    <rect key="frame" x="17" y="134" width="46" height="30"/>
+                                                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                                    <state key="normal" title="Info">
+                                                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                    </state>
+                                                                                </button>
                                                                             </subviews>
                                                                         </view>
                                                                         <blurEffect style="light"/>
@@ -101,6 +101,11 @@
                                                         <constraint firstItem="zOu-YT-TOP" firstAttribute="top" secondItem="Wcp-PS-drj" secondAttribute="bottom" id="py4-NH-sJs"/>
                                                         <constraint firstItem="zOu-YT-TOP" firstAttribute="leading" secondItem="TXC-fN-Y9u" secondAttribute="leading" id="rhV-Yc-meL"/>
                                                     </constraints>
+                                                    <connections>
+                                                        <outlet property="eventDecriptionlabel" destination="Qnz-cK-qoa" id="hLu-5D-HoJ"/>
+                                                        <outlet property="eventTitlelabel" destination="P2f-F9-lXU" id="f8H-w9-vNZ"/>
+                                                        <outlet property="featuredimage" destination="Wcp-PS-drj" id="haR-cY-hdm"/>
+                                                    </connections>
                                                 </collectionViewCell>
                                             </cells>
                                             <connections>
@@ -110,7 +115,7 @@
                                         </collectionView>
                                     </subviews>
                                 </view>
-                                <blurEffect style="light"/>
+                                <blurEffect style="dark"/>
                             </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="0.12547588832487311" green="0.12547588832487311" blue="0.12547588832487311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
