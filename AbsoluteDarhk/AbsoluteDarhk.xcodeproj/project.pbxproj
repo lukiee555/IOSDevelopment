@@ -17,7 +17,6 @@
 		37D9C76D1F347739004EBFFD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C76C1F347739004EBFFD /* Event.swift */; };
 		37D9C7711F347EAE004EBFFD /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C7701F347EAE004EBFFD /* EventsCollectionViewCell.swift */; };
 		37D9C7751F348B57004EBFFD /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D9C7741F348B57004EBFFD /* splashscreen.png */; };
-		37D9C77F1F34AC38004EBFFD /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C77E1F34AC38004EBFFD /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +53,6 @@
 		37D9C76C1F347739004EBFFD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		37D9C7701F347EAE004EBFFD /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
 		37D9C7741F348B57004EBFFD /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = ../../Task/Task/splashscreen.png; sourceTree = "<group>"; };
-		37D9C77D1F34AC31004EBFFD /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = ../../../iCarousel.h; sourceTree = "<group>"; };
-		37D9C77E1F34AC38004EBFFD /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = ../../../iCarousel.m; sourceTree = "<group>"; };
-		37D9C7811F34B2F7004EBFFD /* AbsoluteDarhk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbsoluteDarhk-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +110,7 @@
 				37D2D80F1F34575C005A78D4 /* Assets.xcassets */,
 				37D9C7741F348B57004EBFFD /* splashscreen.png */,
 				37D2D8111F34575C005A78D4 /* LaunchScreen.storyboard */,
-				37D9C77D1F34AC31004EBFFD /* iCarousel.h */,
-				37D9C77E1F34AC38004EBFFD /* iCarousel.m */,
 				37D2D8141F34575C005A78D4 /* Info.plist */,
-				37D9C7811F34B2F7004EBFFD /* AbsoluteDarhk-Bridging-Header.h */,
 			);
 			path = AbsoluteDarhk;
 			sourceTree = "<group>";
@@ -295,7 +288,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D9C76D1F347739004EBFFD /* Event.swift in Sources */,
-				37D9C77F1F34AC38004EBFFD /* iCarousel.m in Sources */,
 				37D9C7711F347EAE004EBFFD /* EventsCollectionViewCell.swift in Sources */,
 				37D2D8091F34575C005A78D4 /* AppDelegate.swift in Sources */,
 				37D9C7691F34637F004EBFFD /* EventsViewController.swift in Sources */,
