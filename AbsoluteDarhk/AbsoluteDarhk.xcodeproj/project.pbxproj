@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		37D2D8091F34575C005A78D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2D8081F34575C005A78D4 /* AppDelegate.swift */; };
-		37D2D80B1F34575C005A78D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2D80A1F34575C005A78D4 /* ViewController.swift */; };
 		37D2D80E1F34575C005A78D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2D80C1F34575C005A78D4 /* Main.storyboard */; };
 		37D2D8101F34575C005A78D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D2D80F1F34575C005A78D4 /* Assets.xcassets */; };
 		37D2D8131F34575C005A78D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D2D8111F34575C005A78D4 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		37D2D8051F34575C005A78D4 /* AbsoluteDarhk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsoluteDarhk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D2D8081F34575C005A78D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37D2D80A1F34575C005A78D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37D2D80D1F34575C005A78D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37D2D80F1F34575C005A78D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37D2D8121F34575C005A78D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				37D2D8081F34575C005A78D4 /* AppDelegate.swift */,
-				37D2D80A1F34575C005A78D4 /* ViewController.swift */,
 				37D2D80C1F34575C005A78D4 /* Main.storyboard */,
 				37D2D80F1F34575C005A78D4 /* Assets.xcassets */,
 				37D2D8111F34575C005A78D4 /* LaunchScreen.storyboard */,
@@ -260,7 +257,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37D2D80B1F34575C005A78D4 /* ViewController.swift in Sources */,
 				37D2D8091F34575C005A78D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +504,7 @@
 				37D2D82F1F34575D005A78D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D2D8301F34575D005A78D4 /* Build configuration list for PBXNativeTarget "AbsoluteDarhkTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +513,7 @@
 				37D2D8321F34575D005A78D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D2D8331F34575D005A78D4 /* Build configuration list for PBXNativeTarget "AbsoluteDarhkUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +522,7 @@
 				37D2D8351F34575D005A78D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
