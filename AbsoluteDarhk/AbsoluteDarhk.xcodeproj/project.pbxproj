@@ -20,6 +20,7 @@
 		37D9C76D1F347739004EBFFD /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C76C1F347739004EBFFD /* Event.swift */; };
 		37D9C7711F347EAE004EBFFD /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9C7701F347EAE004EBFFD /* EventsCollectionViewCell.swift */; };
 		37D9C7751F348B57004EBFFD /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D9C7741F348B57004EBFFD /* splashscreen.png */; };
+		37E5E6751F3F21AA004C08F2 /* 1-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37E5E6741F3F21AA004C08F2 /* 1-1.gif */; };
 		95EAFE5C6DB3FED0D68AF809 /* Pods_AbsoluteDarhkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794E62B2AB4C83B5C017A1EC /* Pods_AbsoluteDarhkTests.framework */; };
 		FE26C710991743DCF9D3BBE6 /* Pods_AbsoluteDarhkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC68869E02AF756218667C9 /* Pods_AbsoluteDarhkUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		37D9C76C1F347739004EBFFD /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		37D9C7701F347EAE004EBFFD /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; };
 		37D9C7741F348B57004EBFFD /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = ../../Task/Task/splashscreen.png; sourceTree = "<group>"; };
+		37E5E6741F3F21AA004C08F2 /* 1-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "1-1.gif"; path = "../../../../Downloads/1-1.gif"; sourceTree = "<group>"; };
 		38941EFA114CD767FAC3573C /* Pods-AbsoluteDarhk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbsoluteDarhk.release.xcconfig"; path = "Pods/Target Support Files/Pods-AbsoluteDarhk/Pods-AbsoluteDarhk.release.xcconfig"; sourceTree = "<group>"; };
 		397272978FD6B3E428BD98C8 /* Pods-AbsoluteDarhkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbsoluteDarhkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AbsoluteDarhkUITests/Pods-AbsoluteDarhkUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5355EFC772335199942E70AC /* Pods_AbsoluteDarhk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbsoluteDarhk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 				37D9C76E1F347A38004EBFFD /* Models */,
 				37D9C76F1F347A58004EBFFD /* EventScreen */,
 				37D2D80C1F34575C005A78D4 /* Main.storyboard */,
+				37E5E6741F3F21AA004C08F2 /* 1-1.gif */,
 				37164A351F3B32FB009B9C05 /* LoginViewController.swift */,
 				37D2D80F1F34575C005A78D4 /* Assets.xcassets */,
 				37D9C7741F348B57004EBFFD /* splashscreen.png */,
@@ -318,6 +321,7 @@
 				37D2D8131F34575C005A78D4 /* LaunchScreen.storyboard in Resources */,
 				37D2D8101F34575C005A78D4 /* Assets.xcassets in Resources */,
 				37D9C7751F348B57004EBFFD /* splashscreen.png in Resources */,
+				37E5E6751F3F21AA004C08F2 /* 1-1.gif in Resources */,
 				37D2D80E1F34575C005A78D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
