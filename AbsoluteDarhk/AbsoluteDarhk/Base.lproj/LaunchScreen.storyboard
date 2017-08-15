@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,19 +18,19 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="cQC-Xd-u9K">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="fdX-4e-gcC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="cQC-Xd-u9K" secondAttribute="trailing" id="awb-LH-EZb"/>
-                            <constraint firstItem="cQC-Xd-u9K" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cXn-x6-PBe"/>
-                            <constraint firstItem="cQC-Xd-u9K" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="nq0-Xf-sQQ"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cQC-Xd-u9K" secondAttribute="bottom" id="q4t-sD-wby"/>
+                            <constraint firstItem="fdX-4e-gcC" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Jhq-xH-RQY"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="fdX-4e-gcC" secondAttribute="bottom" id="YYb-oP-23O"/>
+                            <constraint firstAttribute="trailing" secondItem="fdX-4e-gcC" secondAttribute="trailing" id="p5S-W2-mLA"/>
+                            <constraint firstItem="fdX-4e-gcC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="paF-Sw-W8c"/>
                         </constraints>
                     </view>
                 </viewController>

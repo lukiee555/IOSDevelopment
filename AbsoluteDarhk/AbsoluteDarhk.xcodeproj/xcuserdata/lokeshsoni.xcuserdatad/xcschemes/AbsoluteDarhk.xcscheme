@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37D2D8041F34575C005A78D4"
+               BlueprintIdentifier = "37D349211F41CAAD00C4EE0D"
                BuildableName = "AbsoluteDarhk.app"
                BlueprintName = "AbsoluteDarhk"
                ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37D2D8181F34575D005A78D4"
+               BlueprintIdentifier = "37D349351F41CAAD00C4EE0D"
                BuildableName = "AbsoluteDarhkTests.xctest"
                BlueprintName = "AbsoluteDarhkTests"
                ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "37D2D8231F34575D005A78D4"
+               BlueprintIdentifier = "37D349401F41CAAE00C4EE0D"
                BuildableName = "AbsoluteDarhkUITests.xctest"
                BlueprintName = "AbsoluteDarhkUITests"
                ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37D2D8041F34575C005A78D4"
+            BlueprintIdentifier = "37D349211F41CAAD00C4EE0D"
             BuildableName = "AbsoluteDarhk.app"
             BlueprintName = "AbsoluteDarhk"
             ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37D2D8041F34575C005A78D4"
+            BlueprintIdentifier = "37D349211F41CAAD00C4EE0D"
             BuildableName = "AbsoluteDarhk.app"
             BlueprintName = "AbsoluteDarhk"
             ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "37D2D8041F34575C005A78D4"
+            BlueprintIdentifier = "37D349211F41CAAD00C4EE0D"
             BuildableName = "AbsoluteDarhk.app"
             BlueprintName = "AbsoluteDarhk"
             ReferencedContainer = "container:AbsoluteDarhk.xcodeproj">
