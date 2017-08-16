@@ -10,29 +10,34 @@ import UIKit
 
 class MainScreenViewController: UIViewController {
 
-    @IBOutlet weak var sds: UIImageView!
+    
+    @IBOutlet weak var whoIMageView: UIImageView!
+    @IBOutlet weak var EventsImageView: UIImageView!
+    @IBOutlet weak var MusciImageView: UIImageView!
+    @IBOutlet weak var BookImageView: UIImageView!
+    @IBOutlet weak var HallImageView: UIImageView!
+    @IBOutlet weak var GallerImageView: UIImageView!
+    @IBOutlet weak var SettingsImageView: UIImageView!
+    @IBOutlet weak var ProfileImageView: UIImageView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        whoIMageView.loadGif(name: "")
+        EventsImageView.loadGif(name: "")
+        MusciImageView.loadGif(name: "")
+        BookImageView.loadGif(name: "2")
+        HallImageView.loadGif(name: "")
+        GallerImageView.loadGif(name: "")
+        SettingsImageView.loadGif(name: "")
+        ProfileImageView.loadGif(name: "")
+        
         
     
-    
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
