@@ -28,7 +28,7 @@ class MainScreenViewController: UIViewController {
     
     @IBAction func galleryImage(_ sender: Any) {
         
-         performSegue(withIdentifier: "Gallery", sender: nil)
+         performSegue(withIdentifier: "Navigation", sender: nil)
     }
 
     
