@@ -11,37 +11,41 @@ import UIKit
 class BillBoardViewController: UIViewController ,UITableViewDataSource,UITableViewDelegate {
 
    
+    @IBAction func backButton(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+    }
     @IBOutlet weak var tableView: UITableView!
     
-    var songArray = [AnyObject]()
+   // var songArray = [AnyObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        Alamofire.request("").responseJSON { response in
-            
-            let result = response.result
-            
-            if let dict = result.value as? Dictionary<String,AnyObject>{
-                if let innerdict = dict["songs"]{
-                    self.songArray = innerdict as? [AnyObject]
-                    self.tableView.reloadData()
-                }
-                
-            }
+//        Alamofire.request("").responseJSON { response in
+//            
+//            
+//            let result = response.result
+//            
+//            if let dict = result.value as? Dictionary<String,AnyObject>{
+//                if let innerdict = dict["songs"]{
+//                    self.songArray = innerdict as? [AnyObject]
+//                    self.tableView.reloadData()
+//                }
+//                
+//            }
         
         
         }
         
-        func tableView(tableView: UITableView, numberOfRowsInSection: Int) ->Int{
-            return songArray.count
-        }
+        func tableView(_ tableView: UITableView, numberOfRowsInSection: Int) ->Int{
+            return 20        }
         
-        func tableView(tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "BillBoardCell", for: indexPath) as?BillBoardCell
             
-            let title = songArray[indexPath.row]["title"]
+            //let title = songArray[indexPath.row]["title"]
             
-            cell?.titleLabel.text = title as? String!
+            //cell?.titleLabel.text = title as? String!
             
             return cell!
         }
@@ -54,4 +58,4 @@ class BillBoardViewController: UIViewController ,UITableViewDataSource,UITableVi
 
   
 
-}
+

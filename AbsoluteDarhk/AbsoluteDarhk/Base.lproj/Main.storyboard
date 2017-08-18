@@ -309,6 +309,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="49" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mY2-kR-82e">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BillBoardCell" rowHeight="49" id="OEn-T2-OaG" customClass="BillBoardCell" customModule="AbsoluteDarhk" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="49"/>
@@ -327,13 +328,13 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BillBoard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKG-nY-kZZ">
                                                     <rect key="frame" x="50" y="2" width="224" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMz-jp-38O">
                                                     <rect key="frame" x="50" y="23" width="224" height="12"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-GS-g3G">
@@ -363,6 +364,7 @@
                                                 <constraint firstItem="Kue-GS-g3G" firstAttribute="leading" secondItem="LKG-nY-kZZ" secondAttribute="trailing" constant="8" id="xlJ-ad-51I"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="infoLabel" destination="oMz-jp-38O" id="OxA-6A-K33"/>
                                             <outlet property="songImage" destination="PCC-0s-JO5" id="Kn2-0b-QE1"/>
@@ -376,7 +378,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="mY2-kR-82e" secondAttribute="trailing" id="2Uq-xe-bx0"/>
                             <constraint firstItem="mY2-kR-82e" firstAttribute="leading" secondItem="zIx-EP-ddM" secondAttribute="leading" id="2WA-Qc-wPq"/>
@@ -384,7 +386,14 @@
                             <constraint firstItem="nkK-Bm-VIF" firstAttribute="top" secondItem="mY2-kR-82e" secondAttribute="bottom" id="kBh-PC-Iff"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="BillBoard" id="1rG-F4-iVl"/>
+                    <navigationItem key="navigationItem" title="BillBoard" id="1rG-F4-iVl">
+                        <barButtonItem key="leftBarButtonItem" image="x" id="90O-oF-eNG">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="backButton:" destination="pBJ-ET-Gno" id="iSI-UC-zha"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="mY2-kR-82e" id="ZMn-Eu-1Cp"/>
                     </connections>
@@ -450,7 +459,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tDc-6z-6Lu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4386" y="2441"/>
+            <point key="canvasLocation" x="4335" y="2366"/>
         </scene>
         <!--Details View Controller-->
         <scene sceneID="C6e-fO-kJt">
@@ -482,7 +491,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LmG-ZT-tFU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5295" y="2441"/>
+            <point key="canvasLocation" x="5078" y="2366"/>
         </scene>
         <!--Who We Are View Controller-->
         <scene sceneID="PTC-gU-OI5">
@@ -601,7 +610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="06j-Qu-3Jp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3467" y="308"/>
+            <point key="canvasLocation" x="3484" y="-544"/>
         </scene>
         <!--Share-->
         <scene sceneID="sTN-jq-Hg1">
@@ -739,7 +748,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RjM-eI-3ti" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3606" y="2440"/>
+            <point key="canvasLocation" x="3549" y="2367"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="M4g-zT-V4H">
@@ -757,7 +766,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zh4-ml-v0Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3551" y="1337"/>
+            <point key="canvasLocation" x="3609" y="1335"/>
         </scene>
     </scenes>
     <resources>
