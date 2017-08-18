@@ -20,17 +20,7 @@ class MainScreenViewController: UIViewController {
     @IBOutlet weak var SettingsImageView: UIImageView!
     @IBOutlet weak var ProfileImageView: UIImageView!
     
-    @IBAction func whoImage(_ sender: Any) {
-        
-        performSegue(withIdentifier: "WhoWeAre", sender: nil)
-    }
-    
-    
-    @IBAction func galleryImage(_ sender: Any) {
-        
-         performSegue(withIdentifier: "Navigation", sender: nil)
-    }
-
+   
     
     override func viewDidLoad() {
        
