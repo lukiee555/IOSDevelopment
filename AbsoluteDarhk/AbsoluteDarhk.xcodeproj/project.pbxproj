@@ -11,6 +11,7 @@
 		370356C31F41DDB700EF2207 /* SIgnupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370356C21F41DDB700EF2207 /* SIgnupViewController.swift */; };
 		370356C71F41E72100EF2207 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370356C61F41E72100EF2207 /* Swift+Gif.swift */; };
 		370356C91F41E74800EF2207 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370356C81F41E74800EF2207 /* MainScreenViewController.swift */; };
+		374450191F4736E6001CCE8D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374450181F4736E6001CCE8D /* ProfileViewController.swift */; };
 		375755F71F46FEB200179F84 /* BillBoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375755F61F46FEB200179F84 /* BillBoardCell.swift */; };
 		375755FB1F470E9400179F84 /* BillBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375755FA1F470E9400179F84 /* BillBoardViewController.swift */; };
 		377C7D501F45D1E300E3BF96 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C7D4F1F45D1E300E3BF96 /* Photo.swift */; };
@@ -59,6 +60,7 @@
 		370356C21F41DDB700EF2207 /* SIgnupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIgnupViewController.swift; sourceTree = "<group>"; };
 		370356C61F41E72100EF2207 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		370356C81F41E74800EF2207 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		374450181F4736E6001CCE8D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		375755F61F46FEB200179F84 /* BillBoardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillBoardCell.swift; sourceTree = "<group>"; };
 		375755FA1F470E9400179F84 /* BillBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillBoardViewController.swift; sourceTree = "<group>"; };
 		377C7D4F1F45D1E300E3BF96 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				377C7D531F45D9AB00E3BF96 /* GalleryCollectionViewController.swift */,
 				377C7D551F45E77100E3BF96 /* DetailsViewController.swift */,
 				375755FA1F470E9400179F84 /* BillBoardViewController.swift */,
+				374450181F4736E6001CCE8D /* ProfileViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				37D349281F41CAAD00C4EE0D /* ViewController.swift in Sources */,
 				377C7D521F45D81B00E3BF96 /* PhotoViewCell.swift in Sources */,
 				377C7D561F45E77100E3BF96 /* DetailsViewController.swift in Sources */,
+				374450191F4736E6001CCE8D /* ProfileViewController.swift in Sources */,
 				370356C31F41DDB700EF2207 /* SIgnupViewController.swift in Sources */,
 				377C7D501F45D1E300E3BF96 /* Photo.swift in Sources */,
 				377C7D541F45D9AB00E3BF96 /* GalleryCollectionViewController.swift in Sources */,
