@@ -12,6 +12,7 @@ class ProfileViewController: UIViewController {
 
    
     @IBOutlet weak var proflieImageView: UIImageView!
+    @IBOutlet weak var emailLabel: UILabel!
    
     @IBAction func backButton(_ sender: Any) {
         
@@ -25,22 +26,13 @@ class ProfileViewController: UIViewController {
         proflieImageView.layer.masksToBounds = false
         proflieImageView.layer.borderColor = UIColor.white.cgColor
         proflieImageView.layer.cornerRadius = proflieImageView.frame.size.width/2
-        proflieImageView.clipsToBounds = true    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        proflieImageView.clipsToBounds = true
+        
+        
+        emailLabel.text = "sonilokesh24@gmail.com"
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
+
+    
 
 }
