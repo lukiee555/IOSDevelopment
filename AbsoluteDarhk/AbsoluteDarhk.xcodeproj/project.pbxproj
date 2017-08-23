@@ -20,6 +20,9 @@
 		377C7D561F45E77100E3BF96 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C7D551F45E77100E3BF96 /* DetailsViewController.swift */; };
 		37924DE61F4C591700205152 /* HallofFameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37924DE51F4C591700205152 /* HallofFameViewController.swift */; };
 		37924DEA1F4C5A5000205152 /* HallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37924DE91F4C5A5000205152 /* HallCell.swift */; };
+		379CD0911F4D9C7A00451029 /* EventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379CD0901F4D9C7A00451029 /* EventsCell.swift */; };
+		37B48EF51F4CC1EE0024AA3C /* BookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B48EF41F4CC1EE0024AA3C /* BookingsViewController.swift */; };
+		37B48EF71F4CD8B30024AA3C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B48EF61F4CD8B30024AA3C /* EventsViewController.swift */; };
 		37D349261F41CAAD00C4EE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D349251F41CAAD00C4EE0D /* AppDelegate.swift */; };
 		37D349281F41CAAD00C4EE0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D349271F41CAAD00C4EE0D /* ViewController.swift */; };
 		37D3492B1F41CAAD00C4EE0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D349291F41CAAD00C4EE0D /* Main.storyboard */; };
@@ -71,6 +74,9 @@
 		377C7D551F45E77100E3BF96 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		37924DE51F4C591700205152 /* HallofFameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HallofFameViewController.swift; path = ../HallofFameViewController.swift; sourceTree = "<group>"; };
 		37924DE91F4C5A5000205152 /* HallCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HallCell.swift; path = ../HallCell.swift; sourceTree = "<group>"; };
+		379CD0901F4D9C7A00451029 /* EventsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsCell.swift; sourceTree = "<group>"; };
+		37B48EF41F4CC1EE0024AA3C /* BookingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsViewController.swift; sourceTree = "<group>"; };
+		37B48EF61F4CD8B30024AA3C /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		37D349221F41CAAD00C4EE0D /* AbsoluteDarhk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsoluteDarhk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D349251F41CAAD00C4EE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37D349271F41CAAD00C4EE0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +142,8 @@
 				377C7D551F45E77100E3BF96 /* DetailsViewController.swift */,
 				375755FA1F470E9400179F84 /* BillBoardViewController.swift */,
 				374450181F4736E6001CCE8D /* ProfileViewController.swift */,
+				37B48EF41F4CC1EE0024AA3C /* BookingsViewController.swift */,
+				37B48EF61F4CD8B30024AA3C /* EventsViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 				37924DE91F4C5A5000205152 /* HallCell.swift */,
 				377C7D511F45D81B00E3BF96 /* PhotoViewCell.swift */,
 				375755F61F46FEB200179F84 /* BillBoardCell.swift */,
+				379CD0901F4D9C7A00451029 /* EventsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -387,9 +396,11 @@
 				377C7D521F45D81B00E3BF96 /* PhotoViewCell.swift in Sources */,
 				37924DE61F4C591700205152 /* HallofFameViewController.swift in Sources */,
 				377C7D561F45E77100E3BF96 /* DetailsViewController.swift in Sources */,
+				379CD0911F4D9C7A00451029 /* EventsCell.swift in Sources */,
 				374450191F4736E6001CCE8D /* ProfileViewController.swift in Sources */,
 				370356C31F41DDB700EF2207 /* SIgnupViewController.swift in Sources */,
 				377C7D501F45D1E300E3BF96 /* Photo.swift in Sources */,
+				37B48EF51F4CC1EE0024AA3C /* BookingsViewController.swift in Sources */,
 				377C7D541F45D9AB00E3BF96 /* GalleryCollectionViewController.swift in Sources */,
 				375755FB1F470E9400179F84 /* BillBoardViewController.swift in Sources */,
 				37924DEA1F4C5A5000205152 /* HallCell.swift in Sources */,
@@ -398,6 +409,7 @@
 				37F72E0F1F448954003E5AB6 /* WhoWeAreViewController.swift in Sources */,
 				370356C91F41E74800EF2207 /* MainScreenViewController.swift in Sources */,
 				375755F71F46FEB200179F84 /* BillBoardCell.swift in Sources */,
+				37B48EF71F4CD8B30024AA3C /* EventsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

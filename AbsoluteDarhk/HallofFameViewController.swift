@@ -9,15 +9,23 @@
 import UIKit
 
 class HallofFameViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
-    {
     
+
+{
+    
+
+    @IBAction func backButton(_ sender: Any) {
+        
+        dismiss(animated: true, completion: nil)
+    }
     @IBOutlet weak var tableView: UITableView!
+    
+   
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
+               
         
         
         
