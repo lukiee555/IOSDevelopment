@@ -30,6 +30,7 @@
 		37D349301F41CAAD00C4EE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D3492E1F41CAAD00C4EE0D /* LaunchScreen.storyboard */; };
 		37D3493B1F41CAAE00C4EE0D /* AbsoluteDarhkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D3493A1F41CAAE00C4EE0D /* AbsoluteDarhkTests.swift */; };
 		37D349461F41CAAE00C4EE0D /* AbsoluteDarhkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D349451F41CAAE00C4EE0D /* AbsoluteDarhkUITests.swift */; };
+		37D823501F4E03DC00C2ED40 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D8234F1F4E03DC00C2ED40 /* ShareViewController.swift */; };
 		37F72DFC1F438789003E5AB6 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37F72DFB1F438789003E5AB6 /* 2.gif */; };
 		37F72E061F446C20003E5AB6 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37F72DFE1F446C20003E5AB6 /* 1.gif */; };
 		37F72E071F446C20003E5AB6 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37F72DFF1F446C20003E5AB6 /* 3.gif */; };
@@ -90,6 +91,7 @@
 		37D349411F41CAAE00C4EE0D /* AbsoluteDarhkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbsoluteDarhkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D349451F41CAAE00C4EE0D /* AbsoluteDarhkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsoluteDarhkUITests.swift; sourceTree = "<group>"; };
 		37D349471F41CAAE00C4EE0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D8234F1F4E03DC00C2ED40 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		37F72DFB1F438789003E5AB6 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 2.gif; path = "../../../new GIFs/2.gif"; sourceTree = "<group>"; };
 		37F72DFE1F446C20003E5AB6 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 1.gif; path = "../../../new GIFs/1.gif"; sourceTree = "<group>"; };
 		37F72DFF1F446C20003E5AB6 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = 3.gif; path = "../../../new GIFs/3.gif"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				374450181F4736E6001CCE8D /* ProfileViewController.swift */,
 				37B48EF41F4CC1EE0024AA3C /* BookingsViewController.swift */,
 				37B48EF61F4CD8B30024AA3C /* EventsViewController.swift */,
+				37D8234F1F4E03DC00C2ED40 /* ShareViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 			files = (
 				370356C11F41DCE800EF2207 /* LoginViewController.swift in Sources */,
 				37D349281F41CAAD00C4EE0D /* ViewController.swift in Sources */,
+				37D823501F4E03DC00C2ED40 /* ShareViewController.swift in Sources */,
 				377C7D521F45D81B00E3BF96 /* PhotoViewCell.swift in Sources */,
 				37924DE61F4C591700205152 /* HallofFameViewController.swift in Sources */,
 				377C7D561F45E77100E3BF96 /* DetailsViewController.swift in Sources */,

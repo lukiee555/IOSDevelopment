@@ -947,7 +947,7 @@
         <!--Share-->
         <scene sceneID="sTN-jq-Hg1">
             <objects>
-                <viewController id="3md-XM-uba" sceneMemberID="viewController">
+                <viewController id="3md-XM-uba" customClass="ShareViewController" customModule="AbsoluteDarhk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dAz-rx-xeY"/>
                         <viewControllerLayoutGuide type="bottom" id="hDC-fA-SSb"/>
@@ -957,25 +957,33 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="cvq-W6-Qme">
-                                <rect key="frame" x="40" y="40" width="240" height="106"/>
+                                <rect key="frame" x="40" y="121" width="240" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oc8-Tp-mdo">
-                                <rect key="frame" x="16" y="337" width="140" height="140"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xby-Dt-TLv">
+                                <rect key="frame" x="210" y="380" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WFZ-kR-kOf">
-                                <rect key="frame" x="164" y="180" width="140" height="140"/>
+                                <state key="normal" image="insta_circle"/>
+                                <connections>
+                                    <action selector="insta:" destination="3md-XM-uba" eventType="touchUpInside" id="6J7-hj-aZP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0n-aJ-SxA">
+                                <rect key="frame" x="40" y="380" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nod-Lz-cJf">
-                                <rect key="frame" x="164" y="337" width="140" height="140"/>
+                                <state key="normal" image="facebook_circle_color"/>
+                                <connections>
+                                    <action selector="facebook:" destination="3md-XM-uba" eventType="touchUpInside" id="KIf-jY-y1q"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ps-IJ-nYA">
+                                <rect key="frame" x="130" y="285" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TAo-14-vbv">
-                                <rect key="frame" x="16" y="180" width="139" height="140"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" image="twitter"/>
+                                <connections>
+                                    <action selector="twitter:" destination="3md-XM-uba" eventType="touchUpInside" id="xTu-Bc-MPn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -983,7 +991,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJy-w7-Dx4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2634" y="-509"/>
+            <point key="canvasLocation" x="2691" y="-524"/>
         </scene>
         <!--Feeds-->
         <scene sceneID="IZp-P8-79q">
@@ -1029,7 +1037,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u21-gl-nXt">
-                                                    <rect key="frame" x="23" y="56" width="273" height="318"/>
+                                                    <rect key="frame" x="24" y="70" width="273" height="318"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nLz-CW-z4o">
                                                             <rect key="frame" x="11" y="160" width="250" height="1"/>
@@ -1064,23 +1072,23 @@
                                                             <color key="textColor" red="0.79456768129999999" green="0.79456768129999999" blue="0.79456768129999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="n1" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-Dr-ao9">
+                                                            <rect key="frame" x="8" y="270" width="80" height="78"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="n1" translatesAutoresizingMaskIntoConstraints="NO" id="n3w-6s-Lqr">
-                                                            <rect key="frame" x="177" y="-29" width="80" height="80"/>
+                                                            <rect key="frame" x="185" y="-35" width="80" height="80"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         </imageView>
                                                     </subviews>
                                                     <color key="backgroundColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
                                                 </view>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="n1" translatesAutoresizingMaskIntoConstraints="NO" id="Hio-Dr-ao9">
-                                                    <rect key="frame" x="36" y="331" width="80" height="80"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="u21-gl-nXt" firstAttribute="leading" secondItem="3Gx-wI-JgJ" secondAttribute="leadingMargin" constant="15" id="3zk-kN-myq"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="u21-gl-nXt" secondAttribute="trailing" constant="16" id="awO-fc-pQA"/>
-                                                <constraint firstItem="u21-gl-nXt" firstAttribute="top" secondItem="3Gx-wI-JgJ" secondAttribute="topMargin" constant="48" id="hQM-1Q-XrC"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="u21-gl-nXt" secondAttribute="bottom" constant="45.5" id="jYO-MZ-uhd"/>
+                                                <constraint firstItem="u21-gl-nXt" firstAttribute="leading" secondItem="3Gx-wI-JgJ" secondAttribute="leadingMargin" constant="16" id="3zk-kN-myq"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="u21-gl-nXt" secondAttribute="trailing" constant="15" id="awO-fc-pQA"/>
+                                                <constraint firstItem="u21-gl-nXt" firstAttribute="top" secondItem="3Gx-wI-JgJ" secondAttribute="topMargin" constant="62" id="hQM-1Q-XrC"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="u21-gl-nXt" secondAttribute="bottom" constant="32" id="jYO-MZ-uhd"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -1414,16 +1422,19 @@
         <image name="about" width="400" height="225"/>
         <image name="bg_main" width="900" height="1600"/>
         <image name="f2" width="1080" height="1270"/>
+        <image name="facebook_circle_color" width="256" height="256"/>
         <image name="fblogin" width="193" height="44"/>
         <image name="feeds" width="25" height="25"/>
         <image name="googlrlogin" width="193" height="44"/>
         <image name="heart_outline" width="64" height="64"/>
         <image name="home" width="25" height="25"/>
+        <image name="insta_circle" width="512" height="512"/>
         <image name="loginbutton" width="193" height="44"/>
         <image name="n1" width="1638" height="1080"/>
         <image name="share" width="25" height="25"/>
         <image name="t5" width="1080" height="1296"/>
         <image name="t6" width="1080" height="1346"/>
+        <image name="twitter" width="512" height="512"/>
         <image name="x" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
