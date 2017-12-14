@@ -15,6 +15,7 @@
 		37C36E4B1FE1D0FB0086C0AC /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C36E4A1FE1D0FB0086C0AC /* CalculatorTests.swift */; };
 		37C36E561FE1D0FB0086C0AC /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C36E551FE1D0FB0086C0AC /* CalculatorUITests.swift */; };
 		37C36E651FE1E8F80086C0AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C36E641FE1E8F80086C0AC /* Default-568h@2x.png */; };
+		37C36E671FE28E230086C0AC /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C36E661FE28E230086C0AC /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37C36E551FE1D0FB0086C0AC /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		37C36E571FE1D0FB0086C0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37C36E641FE1E8F80086C0AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37C36E661FE28E230086C0AC /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				37C36E631FE1D70F0086C0AC /* SupportingFiles */,
 				37C36E371FE1D0FB0086C0AC /* ViewController.swift */,
+				37C36E661FE28E230086C0AC /* CalculatorBrain.swift */,
 				37C36E391FE1D0FB0086C0AC /* Main.storyboard */,
 				37C36E411FE1D0FB0086C0AC /* Info.plist */,
 			);
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C36E671FE28E230086C0AC /* CalculatorBrain.swift in Sources */,
 				37C36E381FE1D0FB0086C0AC /* ViewController.swift in Sources */,
 				37C36E361FE1D0FB0086C0AC /* AppDelegate.swift in Sources */,
 			);
