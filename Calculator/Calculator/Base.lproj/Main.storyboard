@@ -144,9 +144,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1In-h8-uEY">
                                                 <rect key="frame" x="0.0" y="0.0" width="64" height="107.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="e"/>
+                                                <state key="normal" title="save"/>
                                                 <connections>
-                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNR-YA-1Hm"/>
+                                                    <action selector="save" destination="BYZ-38-t0r" eventType="touchUpInside" id="lGx-Vn-4cY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaT-wx-TGH">
@@ -181,9 +181,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zA-W9-VN2">
                                                 <rect key="frame" x="0.0" y="0.0" width="64" height="108"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                <state key="normal" title="cos"/>
+                                                <state key="normal" title="res"/>
                                                 <connections>
-                                                    <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HSQ-DS-WBq"/>
+                                                    <action selector="restore" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieF-nk-tSx"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hps-xD-2kJ">
