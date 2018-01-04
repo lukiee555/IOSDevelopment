@@ -137,6 +137,7 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JN8-wK-qF8" secondAttribute="trailingMargin" id="OwJ-mV-DYp"/>
                                                 <constraint firstItem="JN8-wK-qF8" firstAttribute="leading" secondItem="OcZ-p0-voI" secondAttribute="leadingMargin" constant="20" id="QPP-76-Yr2"/>
                                                 <constraint firstItem="JN8-wK-qF8" firstAttribute="centerY" secondItem="OcZ-p0-voI" secondAttribute="centerY" id="zEg-o6-Xlc"/>
                                             </constraints>
@@ -158,9 +159,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Hzx-Et-JTF" firstAttribute="leading" secondItem="aAT-AV-bPJ" secondAttribute="leading" constant="16" id="3ZM-1v-ZGj"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zlS-Q4-qiO" secondAttribute="trailing" constant="20" symbolic="YES" id="5NP-x0-T8I"/>
                             <constraint firstItem="zlS-Q4-qiO" firstAttribute="centerY" secondItem="IRK-fr-5WF" secondAttribute="centerY" id="CL6-yb-wxg"/>
                             <constraint firstItem="X34-QI-fW5" firstAttribute="leading" secondItem="aAT-AV-bPJ" secondAttribute="leading" constant="16" id="CcS-gY-cVo"/>
                             <constraint firstItem="nPD-ud-zVh" firstAttribute="centerY" secondItem="Hzx-Et-JTF" secondAttribute="centerY" id="Hzv-rF-omh"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="eWK-Xa-0I0" secondAttribute="trailing" constant="20" symbolic="YES" id="Ita-9J-Ucq"/>
                             <constraint firstItem="zlS-Q4-qiO" firstAttribute="leading" secondItem="IRK-fr-5WF" secondAttribute="trailing" constant="21" id="J85-qE-ODh"/>
                             <constraint firstItem="aAT-AV-bPJ" firstAttribute="trailing" secondItem="nPD-ud-zVh" secondAttribute="trailing" constant="82" id="NMT-Ne-Hb4"/>
                             <constraint firstItem="eWK-Xa-0I0" firstAttribute="leading" secondItem="aAT-AV-bPJ" secondAttribute="leading" constant="16" id="Rxm-xc-c7X"/>
@@ -168,6 +171,7 @@
                             <constraint firstItem="aAT-AV-bPJ" firstAttribute="trailing" secondItem="X34-QI-fW5" secondAttribute="trailing" constant="16" id="cJs-sT-gno"/>
                             <constraint firstItem="IRK-fr-5WF" firstAttribute="leading" secondItem="aAT-AV-bPJ" secondAttribute="leading" constant="16" id="gka-FU-j90"/>
                             <constraint firstItem="Hzx-Et-JTF" firstAttribute="top" secondItem="eWK-Xa-0I0" secondAttribute="bottom" constant="20" id="gwR-dD-2ji"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Hzx-Et-JTF" secondAttribute="trailing" constant="20" symbolic="YES" id="l38-3Y-L80"/>
                             <constraint firstItem="X34-QI-fW5" firstAttribute="top" secondItem="nPD-ud-zVh" secondAttribute="bottom" constant="20" id="owY-4e-bVA"/>
                             <constraint firstItem="IRK-fr-5WF" firstAttribute="top" secondItem="X34-QI-fW5" secondAttribute="bottom" constant="20" id="rHa-Li-Zl9"/>
                             <constraint firstItem="aAT-AV-bPJ" firstAttribute="bottom" secondItem="IRK-fr-5WF" secondAttribute="bottom" constant="20" id="tdy-Um-OsF"/>
@@ -310,7 +314,7 @@
                                 <rect key="frame" x="322" y="21" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
-                                    <action selector="cloaseButton:" destination="gxM-NL-Uh2" eventType="touchUpInside" id="olc-li-qfM"/>
+                                    <action selector="closeButton:" destination="gxM-NL-Uh2" eventType="touchUpInside" id="syL-4d-Qqm"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create An Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBZ-Ji-F0a">
@@ -420,7 +424,7 @@
                         <viewLayoutGuide key="safeArea" id="ycw-Mg-Kpa"/>
                     </view>
                     <connections>
-                        <segue destination="go0-kM-Ptg" kind="unwind" unwindAction="prepareforUnwindWithSegue:" id="3bM-zG-OrM"/>
+                        <segue destination="go0-kM-Ptg" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForunwindSegueWithSegue:" id="GvL-JF-8Or"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHB-po-AIR" userLabel="First Responder" sceneMemberID="firstResponder"/>
